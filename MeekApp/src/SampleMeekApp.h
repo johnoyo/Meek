@@ -12,7 +12,7 @@ class SampleMeekApp final : public Meek::Application
     bool show_demo_window = true;
 
     Meek::Image customImg = Meek::Image(250.0f, 250.0f, data);
-    Meek::Image img = Meek::Image("C:/dev/Meek/MeekApp/src/AButton.png");
+    Meek::Image img = Meek::Image("src/AButton.png");
 
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
