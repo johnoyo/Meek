@@ -1,9 +1,4 @@
-#include "Core/Application.h"
-
-class SampleMeekApp final : public Meek::Application
-{
-	using Meek::Application::Application;
-};
+#include "SampleMeekApp.h"
 
 int main()
 {
