@@ -1,14 +1,14 @@
 #pragma once
 
-#include "imgui.h"
-#include "GL\glew.h"
-#include "std_image.h"
+#include <imgui.h>
+#include <GL\glew.h>
+#include <std_image.h>
+
 #include <iostream>
 #include <string>
 
 namespace Meek
 {
-
 	class Image 
 	{
 	public:
@@ -27,5 +27,4 @@ namespace Meek
 		float m_Width;
 		float m_Height;
 	};
-
 }
