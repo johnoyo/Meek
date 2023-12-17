@@ -8,3 +8,6 @@
 [submodule "ThirdParty/GLM"]
 	path = ThirdParty/GLM
 	url = https://github.com/g-truc/glm
+[submodule "ThirdParty/PortableFileDialogs"]
+	path = ThirdParty/PortableFileDialogs
+	url = https://github.com/samhocevar/portable-file-dialogs.git

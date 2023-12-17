@@ -28,7 +28,8 @@ group "Core"
             "ThirdParty/GLFW/GLFW/include",
             "ThirdParty/GLEW/include",
             "ThirdParty/stb_image",
-            "ThirdParty/GLM"
+            "ThirdParty/GLM",
+            "ThirdParty/PortableFileDialogs"
         }
     
         libdirs
@@ -90,6 +91,7 @@ project "MeekApp"
         "ThirdParty/GLFW/GLFW/include",
         "ThirdParty/GLEW/include",
         "ThirdParty/GLM",
+        "ThirdParty/PortableFileDialogs",
         "ThirdParty/stb_image",
         "Meek/src"
     }
