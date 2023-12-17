@@ -3,6 +3,8 @@
 #include "Image.h"
 #include "ImGuiRenderer.h"
 
+#include "Dialog.h"
+
 #include <imgui.h>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -35,7 +37,7 @@ namespace Meek
 		void Run();
 
 	private:
-		GLFWwindow* m_Window;
+		GLFWwindow* m_Window = nullptr;
 		ApplicationSpecification m_Specification;
 
 		void Clean();
